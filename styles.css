@@ -8,7 +8,7 @@ body {
   color: black;
   background-color: white;
 }
-section{
+section {
   scroll-margin: 90px;
 }
 
@@ -81,13 +81,13 @@ section{
   font-weight: 700;
   font-size: 30px;
 }
-.home-text{
+.home-text {
   padding: 0 25%;
   color: #fff;
   font-size: 14px;
   line-height: 24px;
 }
-.home-btn{
+.home-btn {
   text-transform: uppercase;
   border: none;
   border-radius: 20px;
@@ -99,15 +99,15 @@ section{
   margin-top: 20px;
 }
 /*about page*/
-.about-page{
+.about-page {
   background-image: url(https://templatemo.com/templates/templatemo_506_tinker/img/about-bg.jpg);
   background-attachment: fixed;
 }
-.navbar{
+.navbar {
   background-color: rgba(250, 250, 250, 0.98);
 }
-.navbar-name-about  .nav-item{
-  color:black;
+.navbar-name-about .nav-item {
+  color: black;
   font-size: 13px;
   font-weight: 300;
   text-transform: uppercase;
@@ -116,33 +116,122 @@ section{
   margin-left: 45px;
   float: right;
 }
-.navbar-name-about{
+.navbar-name-about {
   list-style: none;
   display: flex;
   margin-left: auto;
 }
-.nav-brand-2{
+.nav-brand-2 {
   font-family: 'opensans', sans-serif;
   font-size: 25px;
   text-transform: uppercase;
-  color:black;
+  color: black;
 }
-.card{
-  max-width: 250px;
+.card {
+  max-width: 280px;
   min-height: 500px;
-  border: 2px solid white;
   padding-top: 30px;
   text-align: center;
+  margin-right: 25px;
 }
-.bi{
+.bi {
   font-size: 50px;
   background-color: #f7c552;
   border-radius: 50%;
   color: white;
-  padding: 10px;
+  padding: 10px 0;
   border: 3px solid white;
   text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-.about-text{
-padding: 150px 0;
+.about-text {
+  padding: 150px 0;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.about-card-title {
+  font-size: 17px;
+  margin-top: 45px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+.underline {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(250, 250, 250, 0.5);
+}
+.about-card-para {
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 30px;
+}
+.about-card-btn {
+  text-transform: uppercase;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #33c1cf;
+  padding: 12px 18px;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .card {
+    min-width: 700px;
+  }
+}
+@media (max-width: 991px) {
+  .card {
+    min-width: 400px;
+  }
+}
+/*gallery-page*/
+.gallery-page {
+  background-color: rgba(250, 250, 250, 0.5);
+}
+.gallery-card {
+  max-width: 500px;
+  background-color: #33c1cf;
+  padding-left: 100px;
+  color: #fff;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-right:100px;
+}
+.gallery-card-title{
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.gallery-card-para{
+  font-size: 14px;
+  line-height: 24px;
+  width: 270px;
+}
+.gallery-underline{
+  width: 270px;
+  height: 1px;
+  background-color: rgba(250, 250, 250, 0.5);
+}
+.gallery-items{
+  margin-top: 60px;
+  list-style: none;
+  padding-left: 0;
+}
+.filter-item{
+  margin: 0 10px 15px 0;
+}
+.active{
+  color: #f7c552;
 }

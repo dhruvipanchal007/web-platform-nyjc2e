@@ -130,4 +130,19 @@ section{
 .card{
   max-width: 250px;
   min-height: 500px;
+  border: 2px solid white;
+  padding-top: 30px;
+  text-align: center;
+}
+.bi{
+  font-size: 50px;
+  background-color: #f7c552;
+  border-radius: 50%;
+  color: white;
+  padding: 10px;
+  border: 3px solid white;
+  text-align: center;
+}
+.about-text{
+padding: 150px 0;
 }

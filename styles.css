@@ -27,6 +27,7 @@ section {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  position: fixed;
 }
 .header em {
   font-style: normal;
@@ -205,56 +206,56 @@ section {
   color: #fff;
   padding-top: 200px;
   padding-bottom: 200px;
-  padding-right:100px;
+  padding-right: 100px;
 }
-.gallery-card-title{
+.gallery-card-title {
   font-size: 20px;
   font-weight: 700;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-.gallery-card-para{
+.gallery-card-para {
   font-size: 14px;
   line-height: 24px;
   width: 270px;
 }
-.gallery-underline{
+.gallery-underline {
   width: 270px;
   height: 1px;
   background-color: rgba(250, 250, 250, 0.5);
 }
-.gallery-items{
+.gallery-items {
   margin-top: 60px;
   list-style: none;
   padding-left: 0;
 }
-.filter-item{
+.filter-item {
   margin: 0 10px 15px 0;
 }
-.active{
-  color: #f7c552;
+.active {
+  color: #f7c552!important;
 }
-.gallery{
+.gallery {
   display: flex;
 }
-.gallery-images{
+.gallery-images {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 30px;
 }
-.portfolio-page{
+.portfolio-page {
   background-color: #f7c552;
   height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.portfolio-box{
+.portfolio-box {
   background-color: #fff;
   max-width: 500px;
 }
-.portfolio-para{
+.portfolio-para {
   padding: 20px;
   color: #9a9a9a;
   font-size: 16px;
@@ -262,52 +263,78 @@ section {
   border-radius: 5px;
 }
 /*blog*/
-.blog-page{
+.blog-page {
   background-image: url(https://templatemo.com/templates/templatemo_506_tinker/img/blog-bg.jpg);
   background-attachment: fixed;
 }
-.blog-card{
-  background-color: rgba(0, 0,0,0.5);
+.blog-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.blog-card {
+  background-color: rgba(0, 0, 0, 0.5);
   max-width: 500px;
   padding: 50px 0;
   padding-left: 80px;
   padding-right: 50px;
-  
 }
-.blog-card-heading{
-  color:#fff ;
+.blog-card-heading {
+  color: #fff;
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 1px;
 }
-.blog-underline{
+.blog-underline {
   max-width: 270px;
   height: 1px;
   background-color: #fff;
 }
-.blog-card-para{
+.blog-card-para {
   font-size: 14px;
   line-height: 24px;
   color: #fff;
   padding-right: 70px;
 }
 .blog-info{
-margin-top: 50px;
-list-style: none;
-  
-}
-.blog-link-item{
-margin: 25px 0;
+  display: flex;
+  flex-direction: column;
 }
 .blog-link{
-  background-color: #fff;
   text-decoration: none;
   color: #121212;
+  
+}
+.blog-heading{
+  background-color: #fff;
+  margin: 10px 0;
   padding: 12px 12px;
   text-align: center;
+  max-width: 270px;
   text-transform: capitalize;
-  letter-spacing: 0.5px;
   font-size: 15px;
-  font-weight: 500;
+}
+.blog-intro-heading{
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+}
+
+
+.blog-intro {
+  max-width: 700px;
+  background-color: #fff;
+  max-height: 450px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.blog-intro-para{
+  color: #7a7a7a;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 10px 0;
+}
+.information{
+  padding: 20px;
 }

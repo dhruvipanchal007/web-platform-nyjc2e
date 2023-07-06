@@ -345,7 +345,7 @@ section {
   justify-content: center;
   align-items: center;
 }
-.contact-card{
+.contact-card {
   max-width: 400px;
   text-align: center;
 }
@@ -354,12 +354,12 @@ section {
   text-transform: uppercase;
   color: #fff;
 }
-.contact-card-para{
+.contact-card-para {
   color: #fff;
   font-size: 14px;
   line-height: 24px;
 }
-.contact-card-btn{
+.contact-card-btn {
   color: #fff;
   background-color: #33c1cf;
   font-size: 13px;
@@ -370,4 +370,64 @@ section {
   letter-spacing: 1px;
   font-weight: 400;
   margin-top: 30px;
+}
+/*footer*/
+.footer {
+  background-color: #373a3c;
+  padding: 50px 0;
+  margin-top: -6px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: space-between;
+}
+.footer-title em {
+  color: #f89624;
+  font-style: normal;
+  font-size: 28px;
+}
+.footer-title{
+color: #fff;
+font-size: 21px;
+margin-top: 15px;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+.footer-text{
+  font-size: 12px;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  margin-bottom: -10px;
+  line-height: 24px;
+}
+.footer-heading{
+  color: #fff;
+  font-size: 13px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 30px;
+}
+.footer-text em{
+  font-weight: 500;
+  font-style: normal;
+}
+.d-flex{
+  display: flex;
+}
+.line{
+  width: 1px;
+  height: 55px;
+  background-color: #fff;
+  margin: 0 10px;
+}
+.bi-1{
+  background-color: #fff;
+  border-radius: 50%;
+  color: #373a3c;
+  padding: 5px 5px;
+  font-size: 15px;
 }

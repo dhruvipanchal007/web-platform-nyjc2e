@@ -114,9 +114,11 @@ section {
   max-width: 280px;
   min-height: 500px;
   padding-top: 30px;
-  text-align: center;
   margin-right: 25px;
   background-color: transparent;
+  border: none;
+  justify-content: center;
+  align-items: center;
 }
 .bi {
   font-size: 50px;
@@ -128,6 +130,7 @@ section {
   text-align: center;
   padding-left: 15px;
   padding-right: 15px;
+  width: 100px;
 }
 .about-text {
   padding: 150px 0;

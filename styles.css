@@ -47,6 +47,9 @@ section {
   display: flex;
   margin-left: auto;
 }
+.bg-transparent{
+  background-color: transparent;
+}
 .nav-item {
   color: #fff;
   font-size: 13px;

@@ -50,6 +50,9 @@ section {
 .bg-transparent{
   background-color: transparent;
 }
+.mg-left{
+  margin-left: auto;
+}
 .nav-item {
   color: #fff;
   font-size: 13px;
